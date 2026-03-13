@@ -1,0 +1,6 @@
+name: aws/dynamodb
+version: 0.1.0
+description: "Provisions a DynamoDB table with configurable composite key, on-demand billing, and point-in-time recovery."
+visibility: public
+iac: cdk
+infra: aws
