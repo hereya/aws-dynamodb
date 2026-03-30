@@ -41,7 +41,9 @@ export class HereyaAwsDynamodbStack extends Stack {
           effect: iam.Effect.ALLOW,
           actions: [
             'dynamodb:GetItem',
+            'dynamodb:BatchGetItem',
             'dynamodb:PutItem',
+            'dynamodb:BatchWriteItem',
             'dynamodb:UpdateItem',
             'dynamodb:DeleteItem',
             'dynamodb:Query',
